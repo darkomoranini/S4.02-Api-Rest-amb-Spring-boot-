@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
 
 import cat.itacademy.barcelonactiva.cognoms.nom.s04.t02.n02.model.domain.FrutaModel;
 import cat.itacademy.barcelonactiva.cognoms.nom.s04.t02.n02.model.repository.FrutaRepository;
-import cat.itacademy.barcelonactiva.cognoms.nom.s04.t02.n02.model.services.FrutaService;
+import cat.itacademy.barcelonactiva.cognoms.nom.s04.t02.n02.model.services.IFrutaService;
 
 @Service
-public class FrutaServiceImp implements FrutaService{
+public class FrutaServiceImp implements IFrutaService{
 
 	@Autowired
 	private FrutaRepository repositorioFruta;

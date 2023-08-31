@@ -3,7 +3,7 @@ package cat.itacademy.barcelonactiva.cognoms.nom.s04.t02.n02.model.services;
 import java.util.List;
 import cat.itacademy.barcelonactiva.cognoms.nom.s04.t02.n02.model.domain.FrutaModel;
 
-public interface FrutaService {
+public interface IFrutaService {
 	
     FrutaModel addFruta(FrutaModel fruta);
 
